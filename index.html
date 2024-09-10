@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Detection System</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Boat Detection System</h1>
+        </header>
+
+        <div id="dashboard">
+            <div id="map"></div>
+            <div id="analytics">
+                <canvas id="boatChart"></canvas>
+            </div>
+        </div>
+        
+        <footer>
+            <input type="text" id="search" placeholder="Search Boat by ID">
+        </footer>
+    </div>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

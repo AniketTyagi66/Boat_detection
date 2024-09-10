@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#dashboard {
+    display: flex;
+    flex: 1;
+}
+
+#map {
+    flex: 2;
+    height: 100%;
+}
+
+#analytics {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#search {
+    padding: 10px;
+    width: 50%;
+}
